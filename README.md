@@ -49,18 +49,11 @@ The `brand.controller.ts` file contains methods for interacting with the `/brand
 
 ### Installation
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/sdet-api.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd /mnt/c/Users/ramos/My Documents/automationprojects/sdet-api
-   ```
-3. Install the dependencies:
-   ```sh
-   npm install
-   ```
+1. Clone the repository
+
+2. Navigate to the project directory
+
+3. Install the dependencies
 
 ### Running the Tests 🏃‍♂️
 
