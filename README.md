@@ -36,9 +36,26 @@ The `brands.spec.ts` file contains tests for the `/brands` endpoint. The tests a
 3. **Delete /brands**:
    - **Should delete new brand**: Verifies that a newly created brand can be deleted.
 
+### Categories Tests
+
+The `categories.spec.ts` file contains tests for the `/categories` endpoint. The tests are organized into three main sections:
+
+1. **Get /categories**:
+
+   - **Should return list of categories**: Verifies that the API returns a list of categories.
+   - **Should return category not found error**: Verifies that an error is returned when a non-existent category ID is requested.
+
+2. **Post /categories**:
+
+   - **Should return Access Denied error passing invalid token**: Verifies that an error is returned when an invalid token is used.
+   - **Should create a new category**: Verifies that a new category can be created.
+
+3. **Delete /categories**:
+   - **Should delete category**: Verifies that a newly created category can be deleted.
+
 ### Controller
 
-The `brand.controller.ts` file contains methods for interacting with the `/brands` endpoint. These methods are used in the tests to perform various operations such as creating, fetching, and deleting brands.
+The `brand.controller.ts` and `categories.controller.ts` files contain methods for interacting with the `/brands` and `/categories` endpoints, respectively. These methods are used in the tests to perform various operations such as creating, fetching, and deleting brands and categories.
 
 ## Getting Started 🚀
 
