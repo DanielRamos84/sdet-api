@@ -17,6 +17,7 @@
     "ts-jest": "^29.2.6"
   },
   "dependencies": {
-    "@ngneat/falso": "^7.3.0"
+    "@ngneat/falso": "^7.3.0",
+    "sdet-api": "file:"
   }
 }
